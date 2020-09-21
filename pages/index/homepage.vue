@@ -89,9 +89,9 @@
 				<view class="shop-address">
 					<text class="icfont "></text>
 					<text >湖北省黄冈市蕲春县漕河镇金色家园</text>
-					<text class="icfont  icon-xiangyoujiantou"></text>
+					<text class="icfont icon-xiangyoujiantou"></text>
 				</view>
-				<button type="default">知道了</button>
+				<button type="default">知道了0</button>
 			</view>	
 		</view>
 	</view>

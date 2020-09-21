@@ -1,0 +1,58 @@
+{
+  "id": "2047422",
+  "name": "lianxi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1101",
+      "name": "植物",
+      "font_class": "zhiwu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3896840",
+      "name": "植物icon-百合",
+      "font_class": "ziyuan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3896848",
+      "name": "植物icon-绿叶",
+      "font_class": "ziyuan1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3896851",
+      "name": "植物icon-荷花",
+      "font_class": "ziyuan2",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3896871",
+      "name": "植物icon-郁金香",
+      "font_class": "ziyuan3",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3896874",
+      "name": "植物icon-铃兰",
+      "font_class": "ziyuan4",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5107324",
+      "name": "植物",
+      "font_class": "zhiwu1",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

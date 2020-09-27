@@ -414,22 +414,32 @@
 .head-bar{
 	float: left;
 	width: 100%;
+	position: relative;
+	height: 425upx;
 }
 .head{
 	float: left;
 	width: 100%;
 	height: 274upx;
-	background-image: url("./static/img/4.webp");
-	background-size: cover;
+	position: relative;
+}
+.head image{
+	width: 100%;
+	float: left;
+	height: 274upx;
 }
 .nav{
 	width: 690upx;
 	height: 248upx;
 	float: left;
-	margin-top: -170upx;
+	top: 170upx;
 	background-color: #fff;
 	margin-left: 30upx;
 	border-radius: 20upx;
+	position: absolute;
+	left: 0;
+	right: 0;
+	
 }
 .layout{
 	float: left;
@@ -469,6 +479,7 @@
 	padding:64upx  244upx;
 	position: relative;
 	border-bottom: 1px #E6E6E6 solid;
+	position: relative;
 }
 .sub-wrap{
 	float: left;
@@ -504,13 +515,6 @@
 .menu{
 	float: left;
 	width: 100%;
-}
-.menu-1{
-	float: left;
-	width: 100%;
-	padding: 20upx;
-	font-weight: bold;
-	color: #EA5550;
 }
 .menu-list{
 	width: 100%;
@@ -571,7 +575,99 @@
 	color: #EA5550;
 	margin-right: 8upx;
 }
-.menu-list .icon-jian1{
+.menu-list .icon-tianjia1{
+	
+}
+.prod .icon-jian1{
 	font-size: 18upx;
 	margin-top: 6upx
+	
+}
+.prod .quantity{
+	color: #000000;
+}
+.alert-box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background-color: rgba(0,0,0, .4);
+	z-index: 10;
+}
+.alert-box .warpper{
+	padding:62upx 46upx;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	border-radius:30upx 30upx 0 0  ;
+}
+.shop-name{
+	float: left;
+	width: 100%;
+	padding: 46upx 0upx;
+	line-height: 64upx;
+	border-bottom: 2upx #E6E6E6 solid;
+}
+.shop-name-pic{
+	width: 64upx;
+	height: 64upx;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.shop-name-pic image{
+	width: 100%;
+	float: left;
+}
+.shop-infor{
+	margin-left:20upx;
+}
+.shop-phone{
+	float: left;
+	width: 100%;
+	padding: 40upx 0 ;
+	border-bottom: 2upx #E6E6E6 solid;
+}
+.shop-phone .icon-dianhuaben{
+	float: left;
+	margin-left: 10upx;
+}
+.shop-phone .number{
+	margin-left:44upx ;
+}
+.shop-phone .icon-xiangyoujiantou{
+	float: right;
+	color: #F2F2F2;
+}
+.shop-address .prompt{
+	float: left;
+	width: 100%;
+	padding: 40upx 0 ;
+	border-bottom: 2upx #E6E6E6 solid;
+}
+.fruit-shop{
+	margin-left:44upx ;
+	float: left;
+}
+.shop-address .icon-dingwei{
+	float: left;
+	margin-left: 10upx;
+}
+.shop-address .icon-xiangyoujiantou{
+	float: right;
+	color: #F2F2F2;
+}
+.shop-address button{
+	float: left;
+	width: 100%;
+	margin: 116upx 144upx;
+	width: 368upx;
+	line-height: 78upx;
+	color: #1FC932;
+	background-color: #F2F2F2;
+	border: none;
+	font-size: 32upx;
 }

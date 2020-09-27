@@ -3,7 +3,9 @@
 		<view class="content-bar ">
 			<view class="wrapper ">
 				<view class="head-bar ">
-					<view class="head"></view>
+					<view class="head">
+						<image src="../../static/img/4.webp" mode=""></image>
+					</view>
 					<view class="nav">
 						<view class="layout">
 							<view class="layout-pic">
@@ -21,10 +23,8 @@
 				</view>
 				<view class="subanv">
 					<view class="sub-wrap">
-						<navigator url="">
 						<text @click="label=0" :class="['sub-1', {'active': label==0}]">点单</text>
 						<text @click="label=1" :class="['sub-2', {'active': label==1}]">抽奖</text>
-						</navigator>
 					</view>
 					<view class="sub-layout">
 						<text>免费配送</text>
@@ -32,7 +32,6 @@
 					</view>
 				</view>
 				<view class="menu">
-					<text class="menu-1">今日特价</text>
 					<view class="menu-list">
 						<navigator url="">
 							<view class="menu-pic">
@@ -46,7 +45,7 @@
 								</view>
 								<text class=" iconfont summary">&yen;8.00</text>
 								<text class="iconfont icon-tianjia1 add"></text>
-								<text class="add">1</text>
+								<text class="add quantity">1</text>
 								<text class="iconfont icon-jian1 add"></text>
 							</view>
 						</navigator>
@@ -64,14 +63,13 @@
 								</view>
 								<text class=" iconfont summary">&yen;8.00</text>
 								<text class="iconfont icon-tianjia1 add"></text>
-								<text class="add">1</text>
+								<text class="add quantity">1</text>
 								<text class="iconfont icon-jian1 add"></text>
 							</view>
 						</navigator>
 					</view>
 				</view>
 			</view>
-			
 		</view>
 		<view class="alert-box">
 			<view class="warpper">
@@ -79,19 +77,21 @@
 					<view class="shop-name-pic">
 						<image src="../../static/img/4.webp" mode=""></image>
 					</view>
-					<text>润泰超市水果店</text>
+					<text class="shop-infor">润泰超市水果店</text>
 				</view>
 				<view class="shop-phone">
-					<text class="icfont "></text>
-					<text >1888888888</text>
-					<text class="icfont icon-xiangyoujiantou"></text>
+					<text class="iconfont icon-dianhuaben"></text>
+					<text class="number">1888888888</text>
+					<text class="iconfont icon-xiangyoujiantou"></text>
 				</view>
 				<view class="shop-address">
-					<text class="icfont "></text>
-					<text >湖北省黄冈市蕲春县漕河镇金色家园</text>
-					<text class="icfont icon-xiangyoujiantou"></text>
+					<view class="prompt">
+						<text class="iconfont icon-dingwei"></text>
+						<text class="fruit-shop">湖北省黄冈市蕲春县漕河镇金色家园</text>
+						<text class="iconfont icon-xiangyoujiantou"></text>
+					</view>
+					<button type="default">知道了</button>
 				</view>
-				<button type="default">知道了0</button>
 			</view>	
 		</view>
 	</view>

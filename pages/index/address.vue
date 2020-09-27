@@ -4,7 +4,7 @@
 			<view class="add-bar">
 				<view class="add-list">
 					<text class="add-1">漕河镇金色家园小区35栋303室</text>
-					<text class="add-2">骆先生 男士 188888888</text>
+					<text class="add-2">骆先生 188888888</text>
 				</view>
 				<view class="add-po">
 					<text class="iconfont icon-shuxie"></text>

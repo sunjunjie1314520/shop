@@ -196,14 +196,10 @@
 	border-right:#ECECEC ;
 	border-right: 1px #EBEBEB solid;
 	width: 530upx;
-	/* word-wrap: break-word;
-	word-break: break-all;
-	overflow: hidden; */
 }
 .add-list .add-1{
 	color: #000000;
 	display: block;
-	white-space: ;
 }
 .add-list .add-2{
 	color: #999999;
@@ -476,27 +472,34 @@
 .subanv{
 	float: left;
 	width: 100%;
-	padding:64upx  244upx;
+	padding:64upx  34upx;
 	position: relative;
 	border-bottom: 1px #E6E6E6 solid;
-	position: relative;
 }
 .sub-wrap{
+	display: flex;
 	float: left;
 	width: 100%;
+	padding:0 30upx ;
+	text-align: center;
 }
 .sub-wrap text{
 	padding-bottom: 30upx;
 	display: inline-block;
+	justify-content: space-evenly;
+	flex-grow: 1;
 }
 .sub-wrap .active{
 	border-bottom: 4upx solid #000;
 }
-.subanv .sub-2{
-	margin-left:94upx ;
+.subanv .sub-2, .sub-3, .sub-4{
+	margin-left:94upx;
+	
 }
 .sub-layout{
+	float: left;
 	width: 100%;
+	margin-top: 20upx;
 }
 .sub-layout text{
 	float: left;
@@ -602,7 +605,7 @@
 	left: 0;
 	right: 0;
 	background-color: #fff;
-	border-radius:30upx 30upx 0 0  ;
+	border-radius:30upx 30upx 0 0;
 }
 .shop-name{
 	float: left;
@@ -633,7 +636,7 @@
 }
 .shop-phone .icon-dianhuaben{
 	float: left;
-	margin-left: 10upx;
+	margin-left: 18upx;
 }
 .shop-phone .number{
 	margin-left:44upx ;
@@ -654,20 +657,25 @@
 }
 .shop-address .icon-dingwei{
 	float: left;
-	margin-left: 10upx;
+	margin-left: 18upx;
 }
 .shop-address .icon-xiangyoujiantou{
 	float: right;
 	color: #F2F2F2;
 }
-.shop-address button{
+.shop-address .default{
 	float: left;
 	width: 100%;
 	margin: 116upx 144upx;
 	width: 368upx;
-	line-height: 78upx;
-	color: #1FC932;
 	background-color: #F2F2F2;
 	border: none;
+	border-radius: 10upx;
+	text-align: center;
+}
+.default text{
 	font-size: 32upx;
+	color: #1FC932;
+	line-height: 78upx;
+	
 }

@@ -23,8 +23,10 @@
 				</view>
 				<view class="subanv">
 					<view class="sub-wrap">
-						<text @click="label=0" :class="['sub-1', {'active': label==0}]">点单</text>
-						<text @click="label=1" :class="['sub-2', {'active': label==1}]">抽奖</text>
+						<text @click="label=0" :class="['sub-1', {'active': label==0}]">水果</text>
+						<text @click="label=1" :class="['sub-2', {'active': label==1}]">蔬菜</text>
+						<text @click="label=2" :class="['sub-3', {'active': label==2}]">饮料</text>
+						<text @click="label=3" :class="['sub-4', {'active': label==3}]">其他</text>
 					</view>
 					<view class="sub-layout">
 						<text>免费配送</text>
@@ -71,7 +73,7 @@
 				</view>
 			</view>
 		</view>
-		<view class="alert-box">
+		<!-- <view class="alert-box">
 			<view class="warpper">
 				<view class="shop-name">
 					<view class="shop-name-pic">
@@ -90,10 +92,12 @@
 						<text class="fruit-shop">湖北省黄冈市蕲春县漕河镇金色家园</text>
 						<text class="iconfont icon-xiangyoujiantou"></text>
 					</view>
-					<button type="default">知道了</button>
+					<view class="default">
+						<text >知道了</text>
+					</view>
 				</view>
 			</view>	
-		</view>
+		</view> -->
 	</view>
 </template>
 
